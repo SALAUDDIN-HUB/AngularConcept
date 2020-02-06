@@ -1,0 +1,21 @@
+<div>
+    <table>
+        <tr>
+            <td>USERNAME</td>
+            <td>
+                <input type="text" [(ngModel)]='item.UserName'>
+                </td>
+        </tr>
+        <tr>
+        <td>PASSWORD</td>
+        <td>
+            <input type="text" [(ngModel)]='item.Password'>
+            </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        <button (click)="login()">LOGIN</button>
+    </tr>
+    </table>
+</div>
+{{output}}
